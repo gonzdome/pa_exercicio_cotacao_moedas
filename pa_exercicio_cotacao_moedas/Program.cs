@@ -26,9 +26,9 @@ namespace pa_exercicio_cotacao_moedas
             euro = invest / euro;
             ouro = invest / ouro;
 
-            Console.WriteLine("\n\nValor em dolar: US$" + Math.Round(dolar, 2)
-                + "\n\nValor em euro: US$" + Math.Round(euro, 2)
-                + "\n\nValor em ouro: US$" + Math.Round(ouro, 2) + "!");
+            Console.WriteLine("\n\nValor em dolar: US$ " + dolar.ToString("C")
+                + "\n\nValor em euro: EUR " + euro.ToString("C")
+                + "\n\nValor em ouro: Ouro " + ouro.ToString("C") + "!");
 
             Console.ReadKey();
         }
